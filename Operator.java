@@ -3,7 +3,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Operator //implements Serializable
+public class Operator 
 {
     private ArrayList<Customer> customers;
     private ArrayList<Room> rooms;
@@ -84,42 +84,6 @@ public class Operator //implements Serializable
 
 
     }
-
-
-//    public void saveBillToFile(String filePath, Bill bill)
-//    {
-//        try
-//        {
-//            FileOutputStream fileOut = new FileOutputStream(filePath);
-//            ObjectOutputStream out = new ObjectOutputStream(fileOut);
-//            out.writeObject(bill);
-//            out.close();
-//            fileOut.close();
-//            System.out.println("Bill is saved");
-//        }
-//        catch(IOException e)
-//        {
-//            System.out.println("Error while saving bill");
-//        }
-//    }
-
-
-//    public void loadBillFromFile(String filePath)
-//    {
-//        try
-//        {
-//            FileInputStream fileIn = new FileInputStream(filePath);
-//            ObjectInputStream in = new ObjectInputStream(fileIn);
-//            Bill bill = (Bill) in.readObject();
-//            in.close();
-//            fileIn.close();
-//            bill.print();
-//        }
-//        catch(Exception e)
-//        {
-//            System.out.println("Error while loading bill");
-//        }
-//    }
 
 
     public void saveSystemStateToFile(String filePath)

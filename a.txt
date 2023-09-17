@@ -1,0 +1,4 @@
+Room ID: 102
+Room Type: Double
+Double Room: This room has a double bed, bathroom, TV, and closet
+Booking History:
